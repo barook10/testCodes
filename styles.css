@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#header h1 {
+  margin: 0;
+}
+
+#header h3 {
+  margin: 0;
+  font-weight: normal;
+  color: gray;
+}
+
+#header button {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+#content {
+  display: flex;
+  margin: 1rem;
+}
+
+#food-list {
+  width: 50%;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#food-list h3 {
+  margin-bottom: 0.5rem;
+}
+
+#food-list p {
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+#food-list button {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+#cart-items {
+  width: 50%;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: lightgray;
+}
+
+#cart-total {
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: right;
+}
+#checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+#checkout h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+#checkout button {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+form {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+form h3 {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+}
+
+nav a:hover {
+  color: darkblue;
+}
+
+nav button {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}

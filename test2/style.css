@@ -1,0 +1,43 @@
+body {
+    
+    margin: 50px;
+    padding: 50px;
+    background-color: aquamarine;
+}
+
+.container {
+    width: 50%;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    background-color: cyan;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#lorem-text1, #project-delivery{
+    display: block;
+    
+  }
+
+#project-delivery {
+    display: none;
+}
+
+#read-more, #collapse{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#collapse {
+    display: none;
+}
+
+#read-more:hover, #collapse:hover {
+    background-color: deeppink;
+    border: 5px solid blue;
+}

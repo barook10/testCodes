@@ -1,0 +1,10 @@
+.navbar{
+    color: #2ff;
+    background-color: #222;
+    width: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 1rem o o 1rem;
+    transition: width .75 ease;
+}
